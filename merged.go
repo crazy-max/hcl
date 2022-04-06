@@ -119,7 +119,6 @@ func (mb mergedBodies) JustAttributes() (Attributes, Diagnostics) {
 						),
 						Subject: &attr.NameRange,
 					})
-					continue
 				}
 
 				attrs[name] = attr
@@ -192,7 +191,6 @@ func (mb mergedBodies) mergedContent(schema *BodySchema, partial bool) (*BodyCon
 						),
 						Subject: &attr.NameRange,
 					})
-					continue
 				}
 				content.Attributes[name] = attr
 			}

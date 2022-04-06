@@ -99,7 +99,7 @@ func TestMergedBodiesContent(t *testing.T) {
 				Attributes: map[string]*Attribute{
 					"name": &Attribute{
 						Name:      "name",
-						NameRange: Range{Filename: "first"},
+						NameRange: Range{Filename: "second"},
 					},
 				},
 			},
@@ -423,7 +423,7 @@ func TestMergeBodiesPartialContent(t *testing.T) {
 				Attributes: map[string]*Attribute{
 					"name": &Attribute{
 						Name:      "name",
-						NameRange: Range{Filename: "first"},
+						NameRange: Range{Filename: "second"},
 					},
 				},
 			},
